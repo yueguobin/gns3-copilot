@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v6
       
       - name: Dependency Review
-        uses: actions/dependency-review-action@v4
+        uses: actions/dependency-review-action@v5
         with:
           # Fail if new critical or high severity vulnerabilities are found
           fail-on-severity: moderate
